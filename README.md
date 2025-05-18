@@ -71,7 +71,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn openpyxl joblib
 
 1. Open the notebook:
 ```bash
-jupyter notebook regression_task1.ipynb
+colab notebook regression_task1.ipynb
 ```
 
 2. Follow the cells in the notebook to:
@@ -84,13 +84,15 @@ jupyter notebook regression_task1.ipynb
 ## Project Structure
 ```
 .
-├── regression_task1.ipynb     # Main Jupyter Notebook
-├── data/                      # (Optional) Folder to store dataset
-│   └── your_data.xlsx         # Your Excel dataset
-├── models/                    # (Optional) Folder to save trained models
-├── README.md                  # This file
-└── requirements.txt           # List of required Python packages
+├── notebooks/
+│   └── regression_task1.ipynb     # Main colab Notebook
+├── data/
+│   └── your_data.xlsx             # Excel dataset used for training
+├── models/                        # (Optional) Folder to save trained models
+├── README.md                      # Project documentation
+└── requirements.txt               # Required Python packages
 ```
+
 
 ## Dataset Overview
 Your dataset should include features such as:
